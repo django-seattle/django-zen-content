@@ -3,7 +3,6 @@
 #
 # <strong>models.py</strong>
 
-
 # Import the Django base model
 from django.db import models
 

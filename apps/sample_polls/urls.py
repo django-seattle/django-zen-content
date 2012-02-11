@@ -3,9 +3,9 @@
 #
 # <strong>urls.py</strong>
 
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, url
 from django.views.generic import DetailView, ListView
-from polls.models import Poll
+from apps.sample_polls.models import Poll
 
 urlpatterns = patterns('',
     url(r'^$',

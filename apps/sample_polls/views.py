@@ -7,7 +7,7 @@ from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render_to_response
 from django.template import RequestContext
-from apps.template.models import Poll, Choice
+from apps.sample_polls.models import Poll, Choice
 
 def vote(request, poll_id):
     p = get_object_or_404(Poll, pk=poll_id)
